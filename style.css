@@ -1,0 +1,226 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff; /* Fondo con el mismo color que la sección Impacto del Delito en la Sociedad */
+    color: #333; /* Color de texto principal */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #005f73; /* Azul oscuro para transmitir confianza */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+#logo-image {
+    width: 60px;
+    height: auto;
+}
+
+/* Sección de introducción */
+.intro {
+    background-color: #e1f5e1; /* Rojo para generar urgencia y llamar la atención */
+    color: #005f73;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Sección histórica */
+.historical-context {
+    padding: 40px;
+    background-color: #e1f5e1; /* Fondo blanco para claridad */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.historical-context h2 {
+    font-size: 24px;
+    color: #005f73; /* Azul para confianza */
+    margin-bottom: 20px;
+}
+
+.historical-context p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Impacto */
+.impact {
+    padding: 40px;
+    background-color: #e1f5e1; /* Azul muy claro, color ya aplicado en el fondo del body */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.impact h2 {
+    font-size: 24px;
+    color: #005f73;
+    margin-bottom: 20px;
+}
+
+.impact p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sección de organizaciones */
+.organizations {
+    padding: 40px;
+    background-color: #e1f5e1;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.organizations h2 {
+    font-size: 24px;
+    color: #005f73;
+    margin-bottom: 20px;
+}
+
+.organizations ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sección de concientización */
+.how-to-conscientize {
+    padding: 40px;
+    background-color: #e1f5e1; /* Verde muy suave, el color ahora es el mismo que el de la sección "Concientizar a la Comunidad" */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.how-to-conscientize h2 {
+    font-size: 24px;
+    color: #005f73; /* Verde más intenso para crear contraste y resaltar */
+    margin-bottom: 20px;
+}
+
+.how-to-conscientize ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 30px;
+    text-align: center;
+    background-color: #e1f5e1;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+    font-size: 26px;
+    color: #0066cc; /* Azul brillante para resaltar la sección de datos */
+    margin-bottom: 20px;
+}
+
+.iframe-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 90%;
+    height: 90%;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Recursos */
+.resources {
+    padding: 30px;
+    background-color: #e1f5e1;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resources h2 {
+    font-size: 24px;
+    color: #005f73; /* Verde para transmitir esperanza */
+    margin-bottom: 15px;
+}
+
+.resources p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.resources .button {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #194774; /* Naranja para la acción */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resources .button:hover {
+    background-color: #0b4884; /* Efecto hover con un tono más fuerte */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #005f73; /* Azul oscuro para el footer */
+    color: white;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .iframe-container {
+        width: 100%;
+        height: 400px;
+    }
+}
